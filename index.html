@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Configuração do Firebase do seu aplicativo da web
+      //adicione aqui 
+      var firebaseConfig = {
+        apiKey: "AIzaSyB-YUW7zsBDLrYEDbnV6Eoke15UflF4i8M",
+        authDomain: "multplay-9e6ee.firebaseapp.com",
+        databaseURL: "https://multplay-9e6ee-default-rtdb.firebaseio.com",
+        projectId: "multplay-9e6ee",
+        storageBucket: "multplay-9e6ee.appspot.com",
+        messagingSenderId: "672668768238",
+        appId: "1:672668768238:web:7bb3ed17d96f415bf860ff"
+      };
+      // Inicializar Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
